@@ -1,0 +1,144 @@
+body{
+margin:0;
+font-family:system-ui;
+background:#0f0f0f;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#111;
+}
+
+nav a{
+color:#ccc;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.main-btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:white;
+color:black;
+border-radius:10px;
+text-decoration:none;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+padding:80px 10%;
+}
+
+.card{
+background:#181818;
+padding:30px;
+border-radius:12px;
+}
+
+.tools{
+text-align:center;
+padding:100px 10%;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.tool-btn{
+background:#1c1c1c;
+padding:40px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+display:block;
+}
+
+.tool{
+text-align:center;
+margin-top:120px;
+}
+
+input{
+padding:10px;
+margin-right:10px;
+}
+/* MODERN BUTTON STYLE */
+
+button{
+padding:12px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(135deg,#4f46e5,#6366f1);
+color:white;
+font-weight:500;
+cursor:pointer;
+transition:all .25s ease;
+box-shadow:0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* hover */
+
+button:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(0,0,0,0.6);
+background:linear-gradient(135deg,#6366f1,#818cf8);
+}
+
+/* click */
+
+button:active{
+transform:scale(0.97);
+}
+
+/* special red button (delete / clear) */
+
+.delete-btn,
+.clear{
+background:linear-gradient(135deg,#ef4444,#dc2626);
+}
+
+.delete-btn:hover,
+.clear:hover{
+background:linear-gradient(135deg,#dc2626,#b91c1c);
+}
+/* MODERN UNIVERSAL BUTTON */
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:12px;
+text-decoration:none;
+border:none;
+
+background:linear-gradient(135deg,#6366f1,#4f46e5);
+color:white;
+font-weight:600;
+
+cursor:pointer;
+transition:all .25s ease;
+
+box-shadow:0 6px 18px rgba(0,0,0,0.4);
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 25px rgba(0,0,0,0.6);
+background:linear-gradient(135deg,#818cf8,#6366f1);
+}
+
+.btn:active{
+transform:scale(.97);
+}
